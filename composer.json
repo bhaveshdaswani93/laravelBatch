@@ -1,12 +1,12 @@
 {
-    "name": "mavinoo/laravel-batch",
+    "name": "bhaveshdaswani/laravel-batch",
     "description": "Insert and update batch (bulk) in laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mohammad Ghanbari",
-            "email": "mavin.developer@gmail.com"
+            "name": "Bhavesh Daswani",
+            "email": "bhaveshdaswani93@gmail.com"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mavinoo\\Batch\\": "src/"
+            "BhaveshDaswani\\Batch\\": "src/"
         },
         "files": [
             "src/Common/Helpers.php"
@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mavinoo\\Batch\\BatchServiceProvider"
+                "BhaveshDaswani\\Batch\\BatchServiceProvider"
             ],
             "aliases": {
-                "Batch": "Mavinoo\\Batch\\BatchFacade"
+                "Batch": "BhaveshDaswani\\Batch\\BatchFacade"
             }
         }
     },
